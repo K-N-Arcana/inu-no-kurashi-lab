@@ -15,8 +15,10 @@
     nav{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;padding:18px;background:#fff;border-bottom:1px solid #e8e8df}
     nav a{color:var(--ink);text-decoration:none;padding:6px 13px;border-radius:99px;background:var(--sage);font-size:.9rem}
     main{max-width:1080px;margin:0 auto;padding:36px 20px 70px}
-    .family-photo{margin:0 auto 48px;max-width:980px}
+    .family-photo{position:relative;margin:0 auto 48px;max-width:980px}
     .family-photo img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 8px 28px #34443d18}
+    .photo-name{position:absolute;top:44.1%;height:4.1%;width:9.2%;display:grid;place-items:center;background:#fff;color:var(--ink);font-weight:700;font-size:clamp(10px,1.05vw,16px);line-height:1;pointer-events:none}
+    .photo-name.left{left:9.7%}.photo-name.right{left:33.4%}
     section{margin:0 0 54px} h2{font-size:1.55rem;font-weight:600;margin:0 0 8px}
     .lead{color:var(--muted);margin:0 0 22px}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
@@ -41,6 +43,8 @@
 <main>
   <div class="family-photo">
     <img src="犬との暮らし研究所_8頭_元写真明るさ調整_足補修.jpg" alt="スタンダードプードル4頭とマルチーズ4頭、わが家の8頭">
+    <span class="photo-name left">カノン</span>
+    <span class="photo-name right">カイン</span>
   </div>
   <section id="dogs">
     <h2>わが家の8頭をご紹介</h2>
