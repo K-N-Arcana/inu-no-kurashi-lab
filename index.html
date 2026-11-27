@@ -14,12 +14,13 @@
     header p{margin:8px auto 0;max-width:650px;color:var(--muted)}
     nav{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;padding:18px;background:#fff;border-bottom:1px solid #e8e8df}
     nav a{color:var(--ink);text-decoration:none;padding:6px 13px;border-radius:99px;background:var(--sage);font-size:.9rem}
-    main{max-width:1080px;margin:0 auto;padding:42px 20px 70px}
+    main{max-width:1080px;margin:0 auto;padding:36px 20px 70px}
+    .family-photo{margin:0 auto 48px;max-width:980px}
+    .family-photo img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 8px 28px #34443d18}
     section{margin:0 0 54px} h2{font-size:1.55rem;font-weight:600;margin:0 0 8px}
     .lead{color:var(--muted);margin:0 0 22px}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
     .dog{background:var(--white);border:1px solid #e9e8df;border-radius:18px;padding:20px;box-shadow:0 5px 18px #34443d0a}
-    .photo{height:125px;border-radius:12px;background:linear-gradient(135deg,#f1f2eb,#e7ece5);display:grid;place-items:center;color:#7c897f;font-size:.88rem;margin-bottom:14px}
     .dog h3{margin:0;font-size:1.18rem}.meta{font-size:.86rem;color:var(--muted);margin:2px 0 8px}.dog p{margin:0;font-size:.94rem}
     .topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
     .topic{padding:18px;background:#fff;border:1px solid #e9e8df;border-radius:14px}
@@ -38,18 +39,21 @@
   <a href="#dogs">わが家の犬たち</a><a href="#topics">犬の情報</a><a href="#about">研究所について</a>
 </nav>
 <main>
+  <div class="family-photo">
+    <img src="犬との暮らし研究所_8頭_元写真明るさ調整_足補修.jpg" alt="スタンダードプードル4頭とマルチーズ4頭、わが家の8頭">
+  </div>
   <section id="dogs">
     <h2>わが家の8頭をご紹介</h2>
     <p class="lead">それぞれ違う性格の、かけがえのない家族です。</p>
     <div class="grid">
-      <article class="dog"><div class="photo">写真準備中</div><h3>カイン</h3><div class="meta">スタンダードプードル・7歳</div><p>甘えん坊で、飼い主のそばにいるのが大好き。少し怖がりな一面もあります。</p></article>
-      <article class="dog"><div class="photo">写真準備中</div><h3>カノン</h3><div class="meta">スタンダードプードル・7歳</div><p>穏やかで、自分の時間も大切にできるマイペースなタイプです。</p></article>
-      <article class="dog"><div class="photo">写真準備中</div><h3>リノン</h3><div class="meta">スタンダードプードル・年齢確認中</div><p>いつもくりくりの目で見つめてくる、猪突猛進の突撃タイプです。</p></article>
-      <article class="dog"><div class="photo">写真準備中</div><h3>ジュノン</h3><div class="meta">スタンダードプードル・2歳</div><p>4頭の中でいちばん落ち着いていて、そっとそばにいてくれます。</p></article>
-      <article class="dog"><div class="photo">写真準備中</div><h3>レオン</h3><div class="meta">マルチーズ・9歳</div><p>人懐っこく、抱っこが大好きです。</p></article>
-      <article class="dog"><div class="photo">写真準備中</div><h3>マリン</h3><div class="meta">マルチーズ・8歳</div><p>元気いっぱいで、おやつが大好きです。</p></article>
-      <article class="dog"><div class="photo">写真準備中</div><h3>メリン</h3><div class="meta">マルチーズ・2歳</div><p>静かでかわいらしい、お嬢様タイプ。セリンの姉妹です。</p></article>
-      <article class="dog"><div class="photo">写真準備中</div><h3>セリン</h3><div class="meta">マルチーズ・2歳</div><p>活発だけれど、ちょっぴり鈍くさいところもある愛らしい子です。メリンの姉妹です。</p></article>
+      <article class="dog"><h3>カイン</h3><div class="meta">スタンダードプードル・7歳</div><p>甘えん坊で、飼い主のそばにいるのが大好き。少し怖がりな一面もあります。</p></article>
+      <article class="dog"><h3>カノン</h3><div class="meta">スタンダードプードル・7歳</div><p>穏やかで、自分の時間も大切にできるマイペースなタイプです。</p></article>
+      <article class="dog"><h3>リノン</h3><div class="meta">スタンダードプードル・年齢確認中</div><p>いつもくりくりの目で見つめてくる、猪突猛進の突撃タイプです。</p></article>
+      <article class="dog"><h3>ジュノン</h3><div class="meta">スタンダードプードル・2歳</div><p>4頭の中でいちばん落ち着いていて、そっとそばにいてくれます。</p></article>
+      <article class="dog"><h3>レオン</h3><div class="meta">マルチーズ・9歳</div><p>人懐っこく、抱っこが大好きです。</p></article>
+      <article class="dog"><h3>マリン</h3><div class="meta">マルチーズ・8歳</div><p>元気いっぱいで、おやつが大好きです。</p></article>
+      <article class="dog"><h3>メリン</h3><div class="meta">マルチーズ・2歳</div><p>静かでかわいらしい、お嬢様タイプ。セリンの姉妹です。</p></article>
+      <article class="dog"><h3>セリン</h3><div class="meta">マルチーズ・2歳</div><p>活発だけれど、ちょっぴり鈍くさいところもある愛らしい子です。メリンの姉妹です。</p></article>
     </div>
   </section>
   <section id="topics">
